@@ -1,5 +1,7 @@
 body {
     font-family: "Heebo", sans-serif;
+    margin: 0;
+    color: #21243d;
 }
 
 nav {
@@ -48,8 +50,45 @@ a#button-cv {
     padding: 5px 15px;
 }
 
-#subtilte {
+#subtitle {
     font-size: 16px;
     margin: 35px 0;
+
+}
+#blog {
+    background-color: #edf7fa;
+    padding-bottom: 35px;
+  }
+
+
+#blog-content {
+  width: 1200px;
+  margin: auto;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.article-blog {
+    background-color: white;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+}
+.date-categorie {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
 
 }
