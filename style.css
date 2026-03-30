@@ -55,15 +55,16 @@ a#button-cv {
     margin: 35px 0;
 
 }
+
 #blog {
     background-color: #edf7fa;
     padding-bottom: 35px;
-  }
+}
 
 
 #blog-content {
-  width: 1200px;
-  margin: auto;
+    width: 1200px;
+    margin: auto;
 }
 
 h2 {
@@ -86,9 +87,61 @@ h2 {
     box-sizing: border-box;
 
 }
+
+.article-title {
+    font-size: 26px;
+}
+
 .date-categorie {
     font-size: 18px;
     display: flex;
     gap: 25px;
 
+}
+
+.article-description {
+    font-size: 16px;
+}
+
+#projets {
+    width: 1200px;
+    margin: auto;
+}
+
+#projet {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.projet-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+
+}
+
+.date-type {
+    display: flex;
+    gap: 25px;
+}
+
+.projet-date {
+    background-color: #142850;
+    border-radius: 16px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+}
+
+.projet-type {
+    color: #8695a4;
+    font-size: 20px;
+}
+
+.projet-description {
+    font-size: 16px;
 }
