@@ -8,7 +8,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: 15px auto 0 auto;
 
 }
@@ -25,10 +28,19 @@ nav {
     font-size: 20px;
 }
 
+#menu-button {
+    display: none;
+
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: 75px auto;
 }
 
@@ -63,7 +75,10 @@ a#button-cv {
 
 
 #blog-content {
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -85,6 +100,7 @@ h2 {
     width: 543px;
     padding: 10px 20px;
     box-sizing: border-box;
+    max-width: 48%;
 
 }
 
@@ -104,8 +120,13 @@ h2 {
 }
 
 #projets {
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: auto;
+    flex-direction: column;
+
 }
 
 .projet {
@@ -151,11 +172,15 @@ h2 {
 }
 
 #contact-content {
+    display: flex;
     gap: 40px;
 }
 
 #contact {
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -170,7 +195,7 @@ h2 {
 
 }
 
-#email {
+#contact-email {
     font-size: 16px;
 }
 
@@ -183,7 +208,8 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex: 1px;
+    flex: 1;
+
 }
 
 
@@ -225,4 +251,58 @@ element.style {
 p#Copyright {
     font-size: 14px;
     color: #21243d;
+}
+
+@media (max-width:700px) {
+
+
+    .nav-link {
+        display: none;
+    }
+
+    #menu-button {
+        display: block
+    }
+
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #header-content {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+
+    #coordonnees {
+        display: none;
+    }
+
+    #articles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .article-blog {
+        max-width: none;
+        width: 100%;
+    }
+
+    .date-categorie {
+        gap: 5px;
+    }
+
+    .projet {
+        flex-direction: column;
+    }
+
+    #projets {
+        width: 100%;
+    }
+
 }
