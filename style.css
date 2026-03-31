@@ -108,7 +108,7 @@ h2 {
     margin: auto;
 }
 
-#projet {
+.projet {
     display: flex;
     gap: 50px;
     margin-bottom: 40px;
@@ -144,4 +144,85 @@ h2 {
 
 .projet-description {
     font-size: 16px;
+}
+
+#coordonnees {
+    flex: 1;
+}
+
+#contact-content {
+    gap: 40px;
+}
+
+#contact {
+    width: 1200px;
+    margin: auto;
+}
+
+.contact-title {
+    font-weight: 800;
+    font-size: 36px;
+
+}
+
+#contact-intro {
+    font-size: 20px;
+
+}
+
+#email {
+    font-size: 16px;
+}
+
+.socials-link {
+    font-size: 16px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1px;
+}
+
+
+label {
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    background-color: #F7F7F7;
+    border: none;
+    height: 46px;
+}
+
+textarea#message {
+    height: 165px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 56px;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+element.style {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+p#Copyright {
+    font-size: 14px;
+    color: #21243d;
 }
